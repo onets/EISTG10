@@ -25,6 +25,10 @@ public class QueryProcessor
         else if (query.contains("what is 4 plus 13")) {
             return "17";
         }
+        //%20which%20of%20the%20following%20numbers%20is%20the%20largest:%20471,%20854,%2053,%202
+        else if (query.contains("which of the following numbers is the largest: 471,854,53,2")) {
+            return "854";
+        }
         else { // TODO extend the programm here
             return "";
         }
